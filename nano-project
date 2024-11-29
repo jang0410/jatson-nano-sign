@@ -1,1 +1,77 @@
+도로 교통 표지판 기반 안전 시스템
+Road Traffic Sign-Based Safety System
+
+프로젝트 설명 | Project Description
+도로 교통 안전을 위해 운전자들이 교통 표지판을 정확히 인식하고 준수하는 것은 필수적입니다.
+속도 제한, 정지, 우회전 금지와 같은 표지판을 놓치거나 무시하면 사고로 이어질 수 있습니다.
+이 문제를 해결하기 위해, 이미지 처리 기술과 **폐쇄회로 텔레비전(CCTV)**을 결합한 시스템을 개발하여
+운전자가 교통 표지판을 올바르게 인식하고 따라가는지 실시간으로 모니터링합니다.
+
+Accurate recognition and compliance with traffic signs are essential for road safety.
+Missing or ignoring signs like speed limits, stop signs, or no right turn can result in accidents.
+To address this issue, we are developing a system that combines image processing technology and CCTV
+to monitor drivers' recognition and adherence to traffic signs in real time.
+------------------------------------------------------------------------------------------------------------------------
+주요 기능 | Key Features
+
+1.실시간 교통 표지판 감지 | Real-Time Traffic Sign Detection
+표지판의 내용을 분석하고 운전자가 이를 준수하는지 확인합니다.
+Detects and analyzes traffic sign content in real time to ensure driver compliance.
+
+2.AI 기반 탐지 | AI-Powered Detection
+YOLOv5 또는 YOLOv8 모델을 활용하여 다양한 교통 표지판을 정확하게 인식합니다.
+Utilizes YOLOv5 or YOLOv8 for accurate recognition of diverse traffic signs.
+
+3.Jetson 최적화 | Optimized for Jetson
+NVIDIA Jetson Nano 장치를 사용하여 저전력 환경에서 실시간 처리를 지원합니다.
+Employs NVIDIA Jetson Nano for efficient real-time processing in low-power environments.
+
+4.확장 가능성 | Scalability
+새로운 교통 표지판 규칙 및 도로 환경을 쉽게 추가할 수 있습니다.
+Easily accommodates new traffic sign rules and diverse road environments.
+-----------------------------------------------------------------------------------------------------------------------
+프로젝트의 중요성 | Project Importance
+
+안전 강화 | Enhancing Safety: 교통 표지판 준수를 통해 도로 사고를 줄입니다.
+Reduces road accidents by ensuring compliance with traffic signs.
+효율성 증대 | Improving Efficiency: AI와 IoT 기술을 활용해 교통 관리 효율성을 높입니다.
+Leverages AI and IoT technologies to improve traffic management efficiency.
+------------------------------------------------------------------------------------------------------------------------
+현재 제한 사항 | Current Limitations
+
+1.조명 및 날씨 | Lighting and Weather Conditions:
+야간 운전 또는 악천후에서 탐지 정확도가 낮아질 수 있습니다.
+Accuracy may decrease during night driving or adverse weather conditions.
+
+2.기술적 제약 | Technical Constraints:
+Jetson 장치의 성능으로 인해 고속도로와 같은 복잡한 환경에서 제한이 있을 수 있습니다.
+Performance limitations of Jetson devices may hinder functionality in complex environments like highways.
+
+3.데이터 품질 | Data Quality:
+다양한 도로 환경을 반영하지 못한 데이터셋은 모델 성능에 영향을 줄 수 있습니다.
+Inadequate datasets may affect model performance in diverse road environments.
+------------------------------------------------------------------------------------------------------------------------
+향후 계획 | Future Plans
+
+데이터셋 확장 | Dataset Expansion: 다양한 도로 조건과 교통 표지판을 포함한 고품질 데이터셋 구축
+Developing high-quality datasets that include diverse road conditions and traffic signs
+모델 최적화 | Model Optimization: 최신 YOLO 모델을 활용하여 더 나은 성능 제공
+Utilizing the latest YOLO models for improved performance
+운전자 알림 시스템 | Driver Notification System: 경고 음성 또는 시각적 알림 제공
+Providing audible or visual alerts to drivers
+------------------------------------------------------------------------------------------------------------------------
+관련 연구 및 기술 | Literature Review and Technology
+
+1.도로 안전의 중요성 | Importance of Road Safety:
+교통 표지판 인식은 도로 안전의 핵심이며, 이를 통해 사고를 줄일 수 있습니다.
+Traffic sign recognition is critical for road safety, helping to reduce accidents.
+
+2.객체 탐지 기술 | Object Detection Technology:
+YOLO 시리즈와 같은 최신 모델은 고속 및 높은 정확도로 실시간 표지판 인식에 적합합니다.
+Advanced models like YOLO are ideal for real-time sign recognition due to their speed and accuracy.
+
+3.기존 연구와 차별성 | Existing Research and Improvements:
+기존 연구는 조명 변화와 복잡한 도로 환경에서 정확도 문제가 있었습니다.
+Our system addresses challenges in lighting and complex environments encountered in prior studies.
+------------------------------------------------------------------------------------------------------------------------
 
